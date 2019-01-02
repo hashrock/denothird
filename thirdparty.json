@@ -1,5 +1,15 @@
 {
-  "opn": "https://denopkg.com/hashrock/deno-opn${v}/opn.ts",
+  "camelcase": "https://denopkg.com/denolib/camelcase${v}/index.ts",
+  "csv": "https://denopkg.com/hashrock/deno-fnparse${v}/parsers/csv.ts",
   "deno-ws": "https://denopkg.com//keroxp/deno-ws${v}",
-  "qs": "https://denopkg.com/denolib/qs${v}/index.ts"
+  "dinatra": "https://denopkg.com/syumai/dinatra/dinatra.ts",
+  "expressive": "https://denopkg.com/jinjor/deno-playground${v}/expressive/index.ts",
+  "fnparse": "https://denopkg.com/hashrock/deno-fnparse${v}/index.ts",
+  "ms": "https://denopkg.com/denolib/ms${v}/ms.ts",
+  "multi": "https://denopkg.com/syumai/deno-libs${v}/io/multi.ts",
+  "opn": "https://denopkg.com/hashrock/deno-opn${v}/opn.ts",
+  "qs": "https://denopkg.com/denolib/qs${v}/index.ts",
+  "redis": "https://denopkg.com/keroxp/deno-redis/redis.ts",
+  "watch": "https://denopkg.com/jinjor/deno-playground${v}/watch/index.ts",
+  "xml-parser": "https://denopkg.com/nekobato/deno-xml-parser${v}/index.ts"
 }
