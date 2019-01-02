@@ -1,4 +1,4 @@
-# deno3rd
+# denothird
 
 A package list fetcher for Deno.
 
