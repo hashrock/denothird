@@ -7,7 +7,9 @@ import { color } from "https://deno.land/x/colors/main.ts";
 const pkg = parse(args)._[1];
 
 const registryUrl =
-  "https://raw.githubusercontent.com/hashrock/deno3rd/master/src/database.json";
+  "https://raw.githubusercontent.com/hashrock/denothird/master/thirdparty.json";
+const denolandUrl =
+  "https://raw.githubusercontent.com/hashrock/denothird/master/denoland.json";
 type Dict = { [key: string]: string };
 
 function showList(thirdparty: Dict) {
@@ -27,8 +29,10 @@ function generateImport(pkgName: string, tagName: string, packageUrl: string) {
 
 async function main(pkg?: string) {
   const thirdparty: Dict = await fetch(registryUrl).then(i => i.json());
+  const denoland: Dict = await fetch(denolandUrl).then(i => i.json());
+  const registry: Dict = { ...thirdparty, ...denoland };
   if (!pkg) {
-    showList(thirdparty);
+    showList(registry);
     return;
   }
 
@@ -38,12 +42,12 @@ async function main(pkg?: string) {
     pkgName = pkg.split("@")[0];
     tagName = pkg.split("@")[1];
   }
-  let packageUrl = thirdparty[pkgName];
+  let packageUrl = registry[pkgName];
 
   if (pkgName && packageUrl) {
     console.log(generateImport(pkgName, tagName, packageUrl));
   } else {
-    showList(thirdparty);
+    showList(registry);
   }
 }
 main(pkg);

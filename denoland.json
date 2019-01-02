@@ -1,0 +1,10 @@
+{
+  "net": "https://deno.land/x/net${v}/http.ts",
+  "flags": "https://deno.land/x/flags${v}/index.ts",
+  "testing": "https://deno.land/x/testing${v}/testing.ts",
+  "path": "https://deno.land/x/path${v}/index.ts",
+  "colors": "https://deno.land/x/colors${v}/main.ts",
+  "logging": "https://deno.land/x/logging${v}/index.ts",
+  "dejs": "https://deno.land/x/dejs${v}/dejs.ts",
+  "pretty_assert": "https://deno.land/x/pretty_assert${v}/index.ts"
+}
