@@ -1,0 +1,4 @@
+{
+  "deno_ws": "https://denopkg.com/hashrock/deno-opn${v}/opn.ts",
+  "qs": "https://github.com/denolib/qs${v}/index.ts"
+}
