@@ -5,6 +5,7 @@
   "dinatra": "https://denopkg.com/syumai/dinatra/dinatra.ts",
   "expressive": "https://denopkg.com/jinjor/deno-playground${v}/expressive/index.ts",
   "fnparse": "https://denopkg.com/hashrock/deno-fnparse${v}/index.ts",
+  "marked": "https://denopkg.com/denolib/marked${v}/main.ts",
   "ms": "https://denopkg.com/denolib/ms${v}/ms.ts",
   "multi": "https://denopkg.com/syumai/deno-libs${v}/io/multi.ts",
   "opn": "https://denopkg.com/hashrock/deno-opn${v}/opn.ts",
