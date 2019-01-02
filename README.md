@@ -16,6 +16,6 @@ denoget https://denopkg.com/hashrock/denothird/denothird.ts
 denothird
 // -> shows Deno thirdparty package lists
 
-denothird search qs >> package.ts
+denothird qs >> package.ts
 // -> import * as qs from "https://denopkg.com/denolib/qs/index.ts";
 ```
